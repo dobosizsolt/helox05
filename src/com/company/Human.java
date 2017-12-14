@@ -1,9 +1,14 @@
 package com.company;
 
-/**
- * Created by java1 on 2017.12.11..
- */
-public class Human {
 
+
+public class Human implements IMOve, ISleep {
+    public void doMove() {
+        System.out.println("Human running");
+    }
+
+    public void dosleep() {
+        System.out.println("Zzzzzzzz....");
+    }
 
 }
